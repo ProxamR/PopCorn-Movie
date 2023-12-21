@@ -99,7 +99,7 @@ export default function App() {
       catch (err){
         if(err.name !=="AbortError"){
           setError(err.message)
-        }
+        } 
       }finally{
         setIsLoading(false);
       }
